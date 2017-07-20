@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
+using Hackthon.Helper;
 
 namespace Hackthon
 {
@@ -13,8 +15,19 @@ namespace Hackthon
 
         public void ProcessRequest(HttpContext context)
         {
-            context.Response.ContentType = "text/plain";
-            context.Response.Write("Hello World");
+            context.Response.ContentType = "audio/wav";
+
+            string text = context.Request.Form["text"];
+            if (string.IsNullOrEmpty(text))
+            {
+                text = context.Request.QueryString["text"];
+            }
+            if (!string.IsNullOrEmpty(text))
+            {
+                SpeakHelper.Speak(text, @"LinZhiling", context.Response.OutputStream);
+            }
+            
+            context.Response.Flush();
         }
 
         public bool IsReusable
