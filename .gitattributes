@@ -60,3 +60,9 @@
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
 *.dat filter=lfs diff=lfs merge=lfs -text
+*.ini filter=lfs diff=lfs merge=lfs -text
+*.xml filter=lfs diff=lfs merge=lfs -text
+*.apm filter=lfs diff=lfs merge=lfs -text
+*.heq filter=lfs diff=lfs merge=lfs -text
+*.INI filter=lfs diff=lfs merge=lfs -text
+*.manifest filter=lfs diff=lfs merge=lfs -text
