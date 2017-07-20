@@ -1,15 +1,3 @@
-﻿<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
-<asmv1:assemblyIdentity name="TTS.Engines" version="10.4.13705.0" publicKeyToken="fd036f0d2bce96f7" language="neutral" type="win32" />
-
-<dependency>
-  <dependentAssembly>
-    <assemblyIdentity
-        type="win32"
-          name="mssps"
-          version="1.0.0.0" />
-  </dependentAssembly>
-</dependency>
-
-</asmv1:assembly>
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fd5a4e4ba9449b748433397e1d9c15a7504050ffeb98dd1a56afc5469881429
+size 849
